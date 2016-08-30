@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58ECDE511D753BE200CC6E15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE501D753BE200CC6E15 /* main.m */; };
+		58ECDE541D753BE200CC6E15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE531D753BE200CC6E15 /* AppDelegate.m */; };
+		58ECDE571D753BE200CC6E15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE561D753BE200CC6E15 /* ViewController.m */; };
+		58ECDE5A1D753BE200CC6E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ECDE581D753BE200CC6E15 /* Main.storyboard */; };
+		58ECDE5C1D753BE300CC6E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ECDE5B1D753BE300CC6E15 /* Assets.xcassets */; };
+		58ECDE5F1D753BE300CC6E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ECDE5D1D753BE300CC6E15 /* LaunchScreen.storyboard */; };
+		58ECDE6A1D753BE300CC6E15 /* DragViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE691D753BE300CC6E15 /* DragViewUITests.m */; };
+		58ECDE791D755CD800CC6E15 /* FlexButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE781D755CD800CC6E15 /* FlexButtonView.m */; };
+		58ECDE7C1D756E5A00CC6E15 /* UIButton+NMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ECDE7B1D756E5A00CC6E15 /* UIButton+NMCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58ECDE661D753BE300CC6E15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58ECDE441D753BDF00CC6E15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58ECDE4B1D753BE000CC6E15;
+			remoteInfo = DragView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58ECDE4C1D753BE000CC6E15 /* DragView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ECDE501D753BE200CC6E15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58ECDE521D753BE200CC6E15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58ECDE531D753BE200CC6E15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58ECDE551D753BE200CC6E15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58ECDE561D753BE200CC6E15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58ECDE591D753BE200CC6E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58ECDE5B1D753BE300CC6E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58ECDE5E1D753BE300CC6E15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58ECDE601D753BE300CC6E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ECDE651D753BE300CC6E15 /* DragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ECDE691D753BE300CC6E15 /* DragViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragViewUITests.m; sourceTree = "<group>"; };
+		58ECDE6B1D753BE300CC6E15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ECDE771D755CD800CC6E15 /* FlexButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlexButtonView.h; sourceTree = "<group>"; };
+		58ECDE781D755CD800CC6E15 /* FlexButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlexButtonView.m; sourceTree = "<group>"; };
+		58ECDE7A1D756E5A00CC6E15 /* UIButton+NMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NMCategory.h"; sourceTree = "<group>"; };
+		58ECDE7B1D756E5A00CC6E15 /* UIButton+NMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NMCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58ECDE491D753BE000CC6E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECDE621D753BE300CC6E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58ECDE431D753BDF00CC6E15 = {
+			isa = PBXGroup;
+			children = (
+				58ECDE4E1D753BE200CC6E15 /* DragView */,
+				58ECDE681D753BE300CC6E15 /* DragViewUITests */,
+				58ECDE4D1D753BE000CC6E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58ECDE4D1D753BE000CC6E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58ECDE4C1D753BE000CC6E15 /* DragView.app */,
+				58ECDE651D753BE300CC6E15 /* DragViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58ECDE4E1D753BE200CC6E15 /* DragView */ = {
+			isa = PBXGroup;
+			children = (
+				58ECDE7A1D756E5A00CC6E15 /* UIButton+NMCategory.h */,
+				58ECDE7B1D756E5A00CC6E15 /* UIButton+NMCategory.m */,
+				58ECDE771D755CD800CC6E15 /* FlexButtonView.h */,
+				58ECDE781D755CD800CC6E15 /* FlexButtonView.m */,
+				58ECDE521D753BE200CC6E15 /* AppDelegate.h */,
+				58ECDE531D753BE200CC6E15 /* AppDelegate.m */,
+				58ECDE551D753BE200CC6E15 /* ViewController.h */,
+				58ECDE561D753BE200CC6E15 /* ViewController.m */,
+				58ECDE581D753BE200CC6E15 /* Main.storyboard */,
+				58ECDE5B1D753BE300CC6E15 /* Assets.xcassets */,
+				58ECDE5D1D753BE300CC6E15 /* LaunchScreen.storyboard */,
+				58ECDE601D753BE300CC6E15 /* Info.plist */,
+				58ECDE4F1D753BE200CC6E15 /* Supporting Files */,
+			);
+			path = DragView;
+			sourceTree = "<group>";
+		};
+		58ECDE4F1D753BE200CC6E15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58ECDE501D753BE200CC6E15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58ECDE681D753BE300CC6E15 /* DragViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58ECDE691D753BE300CC6E15 /* DragViewUITests.m */,
+				58ECDE6B1D753BE300CC6E15 /* Info.plist */,
+			);
+			path = DragViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58ECDE4B1D753BE000CC6E15 /* DragView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ECDE6E1D753BE300CC6E15 /* Build configuration list for PBXNativeTarget "DragView" */;
+			buildPhases = (
+				58ECDE481D753BE000CC6E15 /* Sources */,
+				58ECDE491D753BE000CC6E15 /* Frameworks */,
+				58ECDE4A1D753BE000CC6E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragView;
+			productName = DragView;
+			productReference = 58ECDE4C1D753BE000CC6E15 /* DragView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58ECDE641D753BE300CC6E15 /* DragViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58ECDE711D753BE300CC6E15 /* Build configuration list for PBXNativeTarget "DragViewUITests" */;
+			buildPhases = (
+				58ECDE611D753BE300CC6E15 /* Sources */,
+				58ECDE621D753BE300CC6E15 /* Frameworks */,
+				58ECDE631D753BE300CC6E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58ECDE671D753BE300CC6E15 /* PBXTargetDependency */,
+			);
+			name = DragViewUITests;
+			productName = DragViewUITests;
+			productReference = 58ECDE651D753BE300CC6E15 /* DragViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58ECDE441D753BDF00CC6E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jett.yu;
+				TargetAttributes = {
+					58ECDE4B1D753BE000CC6E15 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					58ECDE641D753BE300CC6E15 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 58ECDE4B1D753BE000CC6E15;
+					};
+				};
+			};
+			buildConfigurationList = 58ECDE471D753BDF00CC6E15 /* Build configuration list for PBXProject "DragView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58ECDE431D753BDF00CC6E15;
+			productRefGroup = 58ECDE4D1D753BE000CC6E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58ECDE4B1D753BE000CC6E15 /* DragView */,
+				58ECDE641D753BE300CC6E15 /* DragViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58ECDE4A1D753BE000CC6E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECDE5F1D753BE300CC6E15 /* LaunchScreen.storyboard in Resources */,
+				58ECDE5C1D753BE300CC6E15 /* Assets.xcassets in Resources */,
+				58ECDE5A1D753BE200CC6E15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECDE631D753BE300CC6E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58ECDE481D753BE000CC6E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECDE791D755CD800CC6E15 /* FlexButtonView.m in Sources */,
+				58ECDE571D753BE200CC6E15 /* ViewController.m in Sources */,
+				58ECDE541D753BE200CC6E15 /* AppDelegate.m in Sources */,
+				58ECDE7C1D756E5A00CC6E15 /* UIButton+NMCategory.m in Sources */,
+				58ECDE511D753BE200CC6E15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58ECDE611D753BE300CC6E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58ECDE6A1D753BE300CC6E15 /* DragViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58ECDE671D753BE300CC6E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58ECDE4B1D753BE000CC6E15 /* DragView */;
+			targetProxy = 58ECDE661D753BE300CC6E15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58ECDE581D753BE200CC6E15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ECDE591D753BE200CC6E15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58ECDE5D1D753BE300CC6E15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58ECDE5E1D753BE300CC6E15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58ECDE6C1D753BE300CC6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58ECDE6D1D753BE300CC6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58ECDE6F1D753BE300CC6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.DragView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		58ECDE701D753BE300CC6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DragView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.DragView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		58ECDE721D753BE300CC6E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DragViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.DragViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragView;
+			};
+			name = Debug;
+		};
+		58ECDE731D753BE300CC6E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DragViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-.DragViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DragView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58ECDE471D753BDF00CC6E15 /* Build configuration list for PBXProject "DragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECDE6C1D753BE300CC6E15 /* Debug */,
+				58ECDE6D1D753BE300CC6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ECDE6E1D753BE300CC6E15 /* Build configuration list for PBXNativeTarget "DragView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECDE6F1D753BE300CC6E15 /* Debug */,
+				58ECDE701D753BE300CC6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58ECDE711D753BE300CC6E15 /* Build configuration list for PBXNativeTarget "DragViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58ECDE721D753BE300CC6E15 /* Debug */,
+				58ECDE731D753BE300CC6E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58ECDE441D753BDF00CC6E15 /* Project object */;
+}
